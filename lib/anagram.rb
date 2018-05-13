@@ -6,7 +6,6 @@ class Anagram
   def match(wordlist)
     wordlist.select do |comp|
       comp.split("").sort == @anag.split("").sort 
-      comp
-    end
+      end
   end
 end
